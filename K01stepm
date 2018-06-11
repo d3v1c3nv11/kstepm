@@ -1,0 +1,8 @@
+#!/bin/sh -e
+#
+# a20stepm 
+#
+mknod /dev/stepm c 210 0
+chgrp stepm /dev/stepm
+chmod 665 /dev/stepm
+exit 0
